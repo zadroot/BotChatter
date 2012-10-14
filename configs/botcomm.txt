@@ -1,0 +1,690 @@
+"bot_chat"
+{
+//		"example_event"	--------------------------	event name
+//		{
+//			"50"	------------------------------	chance to say
+//			{
+//				"typetime"		"0.75"	----------	typing time simulation
+//				"message"		"hello"	----------	single message
+//				"teamonly"		"1"	--------------	say (0) or say_team (1)
+//				"map"			"dod_flash"	------	map restriction (only one map)
+//			}
+//			"50"
+//			{
+//				"typetime"		"0.1"
+//				"message"		"hi"
+//			}
+//		}
+
+	"player_connected"
+	{
+		"15.0"
+		{
+			"typetime"		"8.0"
+			"message"		"hi"
+		}
+		"15.0"
+		{
+			"typetime"		"10.0"
+			"message"		"hi guises"
+		}
+		"1.0"
+		{
+			"typetime"		"20.0"
+			"message"		"who is an admin?"
+		}
+		"10.0"
+		{
+			"typetime"		"15.0"
+			"message"		"oh it's my favourite map!"
+		}
+		"5.0"
+		{
+			"typetime"		"8.0"
+			"message"		"Me joined. Now will be better with me than w/o"
+			"teamonly"		"1"
+		}
+	}
+	"other_player_connected"
+	{
+		"12.0"
+		{
+			"typetime"		"3.0"
+			"message"		"hello!"
+		}
+		"10.0"
+		{
+			"typetime"		"6.0"
+			"message"		"Welcome! Join my team! Its better, faster, stronger!"
+		}
+		"1.0"
+		{
+			"typetime"		"1.0"
+			"message"		"Some noobs incoming"
+		}
+		"10.0"
+		{
+			"typetime"		"1.0"
+			"message"		"FRESH MEAT!!"
+		}
+		/* "20.0"
+		{
+			"typetime"		"6.0"
+			"message"		"#Greetings"
+		} */
+	}
+	"other_player_disconnected"
+	{
+		"5.0"
+		{
+			"typetime"		"8.0"
+			"message"		"cya"
+		}
+		"20.0"
+		{
+			"typetime"		"3.0"
+			"message"		"RAGEQUIT :D"
+		}
+		"15.0"
+		{
+			"typetime"		"8.0"
+			"message"		"We need more people!"
+		}
+		"8.0"
+		{
+			"typetime"		"2.0"
+			"message"		"Why people leaving?!"
+			"teamonly"		"1"
+		}
+		"10.0"
+		{
+			"typetime"		"8.0"
+			"message"		"Pff another coward left the server"
+		}
+	}
+	"player_spawn"
+	{
+		"5.0"
+		{
+			"typetime"		"3.0"
+			"message"		"Sup, guys?"
+		}
+		"10.0"
+		{
+			"typetime"		"3.6"
+			"message"		"Will we attack or not?"
+			"teamonly"		"1"
+		}
+		"7.0"
+		{
+			"typetime"		"2.0"
+			"message"		"PUUUUUUUUSH bitches!"
+			"teamonly"		"1"
+		}
+		"10.0"
+		{
+			"typetime"		"3.6"
+			"message"		"Stop jerking and attack!"
+			"teamonly"		"1"
+		}
+		"8.0"
+		{
+			"typetime"		"7.0"
+			"message"		"This time bullet cold rock you!"
+		}
+		"1.0"
+		{
+			"typetime"		"3.0"
+			"message"		"Hey guys. Could you invite more people?"
+		}
+		"5.0"
+		{
+			"typetime"		"1.0"
+			"message"		"hah nice"
+		}
+		"8.0"
+		{
+			"typetime"		"2.0"
+			"message"		"Lucker"
+		}
+		"5.0"
+		{
+			"typetime"		"2.0"
+			"message"		"respawn is L-O-O-O-O-O-O-ONG"
+		}
+		"5.0"
+		{
+			"typetime"		"1.0"
+			"message"		"I'd won you 1v1"
+		}
+		"2.0"
+		{
+			"typetime"		"5.0"
+			"message"		"Lets meet there again?"
+		}
+	}
+	"player_death"
+	{
+		"1.0"
+		{
+			"typetime"		"6.0"
+			"message"		"Oh damn..."
+		}
+		"2.0"
+		{
+			"typetime"		"3.0"
+			"message"		"FUCK!!!!"
+		}
+		"2.0"
+		{
+			"typetime"		"3.0"
+			"message"		"BULLSHIT"
+		}
+		"1.0"
+		{
+			"typetime"		"3.0"
+			"message"		"LUCKER!"
+		}
+		"1.0"
+		{
+			"typetime"		"3.0"
+			"message"		"NNNNOOOOOOO!!!"
+		}
+		"2.0"
+		{
+			"typetime"		"3.0"
+			"message"		"i hate you"
+		}
+		"1.0"
+		{
+			"typetime"		"3.0"
+			"message"		"y u no cover me? morons"
+			"teamonly"		"1"
+		}
+		"5.0"
+		{
+			"typetime"		"3.0"
+			"message"		"he is weak!"
+			"teamonly"		"1"
+		}
+		"2.0"
+		{
+			"typetime"		"3.0"
+			"message"		"Next time you'll got no chances!"
+		}
+		"1.0"
+		{
+			"typetime"		"2.0"
+			"message"		"I'd won you 1v1"
+		}
+	}
+	"player_kill"
+	{
+		"8.0"
+		{
+			"typetime"		"0.5"
+			"message"		"lol"
+		}
+		"8.0"
+		{
+			"typetime"		"0.5"
+			"message"		"lold"
+		}
+		"8.0"
+		{
+			"typetime"		"0.5"
+			"message"		"lawl"
+		}
+		"0.5"
+		{
+			"typetime"		"2.0"
+			"message"		"FUCK OFF"
+		}
+		"5.0"
+		{
+			"typetime"		"2.0"
+			"message"		"oink oink oink oink"
+		}
+		"5.0"
+		{
+			"typetime"		"2.0"
+			"message"		"next time try to shoot"
+		}
+		"5.0"
+		{
+			"typetime"		"1.0"
+			"message"		"so weak!"
+		}
+		"5.0"
+		{
+			"typetime"		"2.0"
+			"message"		"you. are. WEAK."
+		}
+		"5.0"
+		{
+			"typetime"		"3.0"
+			"message"		"tiny enemies! it's funny to me"
+		}
+		"5.0"
+		{
+			"typetime"		"2.0"
+			"message"		"baby enemies"
+		}
+		"5.0"
+		{
+			"typetime"		"4.0"
+			"message"		"you. are. dead. I. am. not."
+		}
+		"3.0"
+		{
+			"typetime"		"1.0"
+			"message"		":D"
+		}
+		"0.5"
+		{
+			"typetime"		"3.0"
+			"message"		"what a noob"
+		}
+		"3.0"
+		{
+			"typetime"		"3.0"
+			"message"		"hahahahahahahahahaha, noob"
+		}
+	}
+	"achievement_earned"
+	{
+		"80"
+		{
+			"typetime"		"1.0"
+			"message"		"Congratulations!"
+		}
+		"20"
+		{
+			"typetime"		"3.0"
+			"message"		"Achiievements? I though everybody already have all of them"
+		}
+		"30"
+		{
+			"typetime"		"3.0"
+			"message"		"Achievement, heh"
+		}
+		"10"
+		{
+			"typetime"		"1.0"
+			"message"		"I feel fresh meat"
+		}
+	}
+	"dod_point_captured"
+	{
+		"20"
+		{
+			"typetime"		"1.0"
+			"message"		"This is my flag"
+		}
+		"10"
+		{
+			"typetime"		"2.0"
+			"message"		"WE ARE INCOMING!"
+		}
+		"10"
+		{
+			"typetime"		"2.0"
+			"message"		"go to next object immediate!"
+			"typetime"		"1"
+		}
+	}
+	"dod_capture_blocked"
+	{
+		"20"
+		{
+			"typetime"		"2.0"
+			"message"		"No wai!!1"
+		}
+		"10"
+		{
+			"typetime"		"1.0"
+			"message"		"You did not expect?"
+		}
+		"10"
+		{
+			"typetime"		"2.0"
+			"message"		"Help me at flag!!"
+			"teamonly"		"1"
+		}
+		"20"
+		{
+			"typetime"		"3.0"
+			"message"		"Don't touch my flag!"
+		}
+	}
+	"dod_timer_time_added"
+	{
+		"30"
+		{
+			"typetime"		"2.0"
+			"message"		"We've got more chances to win!"
+		}
+		"10"
+		{
+			"typetime"		"2.0"
+			"message"		"Time was added, be smart & careful"
+			"typetime"		"1"
+		}
+	}
+	"dod_bomb_exploded"
+	{
+		"10"
+		{
+			"typetime"		"1.0"
+			"message"		"KaBOOOOOOOOOOOOOOM!"
+		}
+		"20"
+		{
+			"typetime"		"2.0"
+			"message"		"Watch out!"
+		}
+		"15"
+		{
+			"typetime"		"2.0"
+			"message"		"gj team..."
+			"teamonly"		"1"
+		}
+		"25"
+		{
+			"typetime"		"2.0"
+			"message"		"Explosion in 3..2..1.."
+		}
+	}
+	"dod_kill_planter_enemy"
+	{
+		"30"
+		{
+			"typetime"		"1.0"
+			"message"		"no way"
+		}
+		"25"
+		{
+			"typetime"		"2.0"
+			"message"		"Nice try"
+		}
+		"15"
+		{
+			"typetime"		"3.0"
+			"message"		"Next time be smart :D"
+		}
+		"30"
+		{
+			"typetime"		"3.0"
+			"message"		"I've killed an enemy at our objective, be careful they're around"
+			"teamonly"		"1"
+		}
+	}
+	"dod_kill_defuser_enemy"
+	{
+		"20"
+		{
+			"typetime"		"3.0"
+			"message"		"this is my bomb, you are not able to defuse my bomb!"
+		}
+		"10"
+		{
+			"typetime"		"1.0"
+			"message"		"Help at bombed objective!"
+			"teamonly"		"1"
+		}
+		"20"
+		{
+			"typetime"		"2.0"
+			"message"		"Where are your teammates? I'm waiting for them"
+		}
+	}
+	"dod_bomb_planted_friend"
+	{
+		"10"
+		{
+			"typetime"		"2.0"
+			"message"		"everybody go protect TNT!"
+			"teamonly"		"1"
+		}
+		"15"
+		{
+			"typetime"		"2.0"
+			"message"		"ALL go to mined objective!"
+			"teamonly"		"1"
+		}
+		"20"
+		{
+			"typetime"		"2.0"
+			"message"		"Nice one"
+			"teamonly"		"1"
+		}
+		"10"
+		{
+			"typetime"		"2.0"
+			"message"		"I will cover you"
+			"teamonly"		"1"
+		}
+	}
+	"dod_bomb_planted_enemy"
+	{
+		"10"
+		{
+			"typetime"		"2.0"
+			"message"		"faster go to objective!"
+			"teamonly"		"1"
+		}
+		"10"
+		{
+			"typetime"		"1.0"
+			"message"		"Oh no!"
+			"teamonly"		"1"
+		}
+		"10"
+		{
+			"typetime"		"1.0"
+			"message"		"You know what's to do"
+			"teamonly"		"1"
+		}
+		"5"
+		{
+			"typetime"		"2.0"
+			"message"		"WE SHOULD PROTECT THIS!!! DEFUSE A BOMB"
+			"teamonly"		"1"
+		}
+		"5"
+		{
+			"typetime"		"2.0"
+			"message"		"EVERYBODY GOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
+			"teamonly"		"1"
+		}
+	}
+	"dod_bomb_defused_friend"
+	{
+		"10"
+		{
+			"typetime"		"1.0"
+			"message"		"haha no-wai"
+		}
+		"20"
+		{
+			"typetime"		"1.0"
+			"message"		"gj"
+			"teamonly"		"1"
+		}
+		"5"
+		{
+			"typetime"		"1.0"
+			"message"		"Nice"
+			"teamonly"		"1"
+		}
+		"10"
+		{
+			"typetime"		"1.0"
+			"message"		"2ez"
+		}
+	}
+	"dod_bomb_defused_enemy"
+	{
+		"30"
+		{
+			"typetime"		"2.0"
+			"message"		"how its happend? why nobody helped me?"
+			"teamonly"		"1"
+		}
+		"10"
+		{
+			"typetime"		"1.0"
+			"message"		"8-("
+		}
+		"5"
+		{
+			"typetime"		"2.0"
+			"message"		"*facepalm*"
+		}
+		"2"
+		{
+			"typetime"		"2.0"
+			"message"		"..."
+			"teamonly"		"1"
+		}
+	}
+	"dod_round_start"
+	{
+		"10"
+		{
+			"typetime"		"1.0"
+			"message"		"gl hf"
+		}
+		"5"
+		{
+			"typetime"		"1.0"
+			"message"		"good luck!"
+		}
+		"5"
+		{
+			"typetime"		"1.5"
+			"message"		"Have fuck"
+		}
+		"30"
+		{
+			"typetime"		"2.0"
+			"message"		"Do it better now"
+			"teamonly"		"1"
+		}
+		"20"
+		{
+			"typetime"		"3.0"
+			"message"		"nice round"
+		}
+	}
+	"dod_round_active"
+	{
+		"10"
+		{
+			"typetime"		"3.0"
+			"message"		"Run cowards!"
+		}
+		"2"
+		{
+			"typetime"		"1.0"
+			"message"		"atatatata"
+		}
+		"5"
+		{
+			"typetime"		"1.0"
+			"message"		"hf"
+		}
+	}
+	"dod_round_win_friend"
+	{
+		"50.0"
+		{
+			"typetime"		"3.0"
+			"message"		"aw yeah!"
+		}
+		"30.0"
+		{
+			"typetime"		"3.0"
+			"message"		"that's right"
+		}
+		"20.0"
+		{
+			"typetime"		"3.0"
+			"message"		"lol"
+		}
+		"75.0"
+		{
+			"typetime"		"3.0"
+			"message"		"run cowards"
+		}
+		"60.0"
+		{
+			"typetime"		"2.0"
+			"message"		"suckers :D"
+		}
+		"50.0"
+		{
+			"typetime"		"8.0"
+			"message"		"GJ Team"
+			"teamonly"		"1"
+		}
+	}
+	"dod_round_win_enemy"
+	{
+		"30.0"
+		{
+			"typetime"		"3.0"
+			"message"		"oh god oh man oh god"
+		}
+		"50.0"
+		{
+			"typetime"		"2.0"
+			"message"		"oh god ruun"
+			"teamonly"		"1"
+		}
+		"60"
+		{
+			"typetime"		"2.0"
+			"message"		"I don't wanna die!"
+		}
+		"75"
+		{
+			"typetime"		"3.0"
+			"message"		"screw this team!"
+		}
+		"20"
+		{
+			"typetime"		"3.0"
+			"message"		"y u no play better??"
+			"teamonly"		"1"
+		}
+	}
+	"dod_game_over"
+	{
+		"30"
+		{
+			"typetime"		"1.0"
+			"message"		"gg"
+		}
+		"15"
+		{
+			"typetime"		"2.0"
+			"message"		"that was suddenly"
+		}
+		"30"
+		{
+			"typetime"		"3.0"
+			"message"		"nextmap"
+		}
+		"60"
+		{
+			"typetime"		"1.0"
+			"message"		"DONT LEAVE! Next map will be better!"
+		}
+		"20"
+		{
+			"typetime"		"1.0"
+			"message"		"Finally this map is over!"
+		}
+	}
+}

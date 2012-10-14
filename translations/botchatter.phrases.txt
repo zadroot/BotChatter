@@ -1,0 +1,8 @@
+﻿"Phrases"
+{
+	"Greetings"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"Hello, {2}"
+	}
+}
